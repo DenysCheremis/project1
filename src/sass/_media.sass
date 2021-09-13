@@ -1,0 +1,324 @@
+@media (max-width: 1200px)
+    .menu
+        padding-right: 31px
+        a
+            font-size: 13px
+    .promo
+        &_header
+            font-size: 50px
+    .start
+        &_descr
+            width: 295px
+    .start
+        &_block
+            align-items: flex-start
+    .mobile
+        &_item
+            width: 308px
+
+@media (max-width: 991px)
+    .menu_item
+        padding-right: 21px
+        a
+            font-size: 10px
+    .nav_logo_descr 
+        font-size: 11px
+    .nav_logo_uber 
+        width: 100%
+        margin-top: 20px
+    .nav_logo_number
+        font-size: 21px
+    .nav_logo_btn
+        margin-top: 18px
+        width: 165px
+        height: 46px
+    .promo_header 
+        font-size: 49px
+    .promo_subheader
+        font-size: 31px
+    .start
+        &_round
+            height: 90px
+            width: 90px
+        &_block
+            flex-direction: column
+            align-items: center
+        &_descr
+            margin-top: 20px
+            width: 309px
+    .footer
+        &_mobile
+            &_img
+                width: 200px
+        &_links
+            a
+                font-size: 11px
+            &_sub
+                a
+                    font-size: 7px
+    .car
+        &_uberx
+            width: 690px
+    .mobile
+        &_item
+            width: 336px
+
+@media (max-width: 768px)
+    .menu
+        position: fixed
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        flex-direction: column
+        padding: 20px 15px
+        background-color: rgba(0, 0, 0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin-top: 20px
+            a
+                font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all 
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)         
+    .nav
+        &_logo
+            &_descr
+                display: none
+            &_uber
+                margin-top: 27px
+            &_number
+                font-size: 16px
+                font-weight: 400
+                text-transform: uppercase
+                color: #ffffff
+                text-align: center
+                margin-top: 8px
+            &_btn
+                display: block
+                margin: 0 auto
+                margin-top: 3px
+                width: 144px
+                height: 37px
+    .xs_hidden
+        display: none
+    .xs_visible
+        display: block
+    .promo
+        min-height: 0px
+        padding: 151px 0 132px 0
+        &_header
+            font-size: 46px
+            line-height: 44px
+        &_subheader
+            margin-top: 33px
+            line-height: 38px
+        &_descr
+            display: none
+        &_btn
+            margin-top: 69px
+    .start
+        &_descr
+            text-align: center
+            width: 392px
+    .mobile
+        padding: 22px 0 48px 0
+        &_item
+            margin: 0 auto 19px auto
+            height: 331px
+            width: 380px
+    .car
+        min-height: 760px
+        padding: 57px 0 0 0
+        background: none
+        &_descr
+            position: relative
+            z-index: 2
+            color: white
+        &_uberx
+            width: 487px
+        .black
+            min-height: 800px
+
+@media (max-width: 575px)
+    nav
+        height: 30px
+    .nav
+        &_logo
+            margin-top: 30px
+            height: 60px
+            &_uber
+                margin-top: 21px
+            &_number
+                margin-top: 5px
+                font-size: 12px
+                font-weight: 400
+                text-transform: uppercase
+                color: #ffffff
+            &_btn
+                width: 116px
+                height: 28px
+                font-size: 11px
+    .menu
+        margin: 0
+        width: 80%
+        &_item
+            width: 100%
+            text-align: center
+        a
+            display: block
+            padding: 5px
+
+    .promo
+        min-height: 400px
+        padding: 0
+        padding-bottom: 32px
+        &_header
+            margin: 143px 25px 0 25px
+            line-height: 1.2
+            font-size: 30px
+            font-weight: 900
+            text-transform: uppercase
+            color: #ffffff
+        &_subheader
+            margin: 33px 13px 0 13px
+            font-size: 20px
+            font-weight: 700
+            line-height: 1.2
+        &_btn
+            width: 216px
+            height: 56px
+            font-size: 16px
+            line-height: 5px
+    .start
+        padding: 22px 0 50px 0
+        &_block
+            margin-top: 26px
+        &_round
+            width: 100px
+            height: 100px
+            margin-right: 0
+        &_descr
+            text-align: left
+            width: 290px
+        &_header
+            &_descr
+                font-size: 16px
+                line-height: 16px
+                font-weight: 400
+                line-height: 21px
+        &_text
+            font-size: 15px
+            font-weight: 300
+            line-height: 20px
+    .title
+        margin-top: 15px
+        line-height: 16px
+        font-size: 16px
+        font-weight: 700
+        text-transform: uppercase
+        color: #222222
+        &_white
+            color: #ffffff
+    .subtitle
+        margin-top: 11px
+        font-size: 14px
+        line-height: 21px
+        font-weight: 400
+        color: #222222
+        &_white
+            color: #ffffff
+    .mobile
+        &_item
+            width: 290px
+            height: 254px
+            font-size: 18px
+            line-height: 31px
+            font-weight: 400
+    .car
+        padding: 25px
+        min-height: 390px
+        &_uberx
+            width: 250px
+        .black
+            min-height: 390px
+    .require
+        padding: 25px 0 26px 0
+        &_title
+            font-size: 16px
+            line-height: 24px
+            font-weight: 400
+            &_red
+                font-size: 16px
+                line-height: 24px
+                font-weight: 400
+        &_block
+            margin-top: 22px
+            margin-bottom: 9px
+        &_red1
+            margin: 0
+            margin-top: 39px
+        &_red2
+            margin: 0
+            margin-top: 32px
+        &_descr
+            font-size: 14px
+            line-height: 14px
+            font-weight: 300
+        .row
+            margin-top: 0
+        &_list
+            padding-left: 1rem;
+            li
+                font-size: 14px
+                line-height: 14px
+                font-weight: 300
+                &::before
+                    top: -3px
+    .world
+        padding: 25px 0 30px 0
+        min-height: 360px
+        a
+            margin-top: 216px
+    .subtitle
+        &_white
+            margin-top: 10px
+    .footer
+        padding-top: 25px
+        &_divider
+            width: 253px
+            height: 4px
+    .footer
+        &_wrapper
+            flex-wrap: wrap
+        &_wrapper > div
+            width: 100%
+            display: flex
+            justify-content: center
+            margin-bottom: 20px
